@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
+    - name: чек кода
       uses: actions/checkout@v4
 
-    - name: Deploy to GitHub Pages
+    - name: Отправка в гит
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.G_TOKEN }}
